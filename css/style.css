@@ -1,0 +1,350 @@
+/* Global Styles */
+
+/* Resetting default padding and margin for all elements */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Body styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  background: #F0FFF0;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  color: #000;
+  margin: 0px 0px 0px 30px;
+  transition: 1s;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #21B573;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:focus {
+  color: #21B573;
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  color: #fff;
+  margin: 0px 0px 0px 30px;
+  padding: 8px 20px;
+  border-radius: 35px;
+  background-color: #21B573;
+  border: 1px solid #21B573;
+  transition: 1s;
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success:hover {
+  color: #21B573;
+  background-color: transparent;
+  border: 1px solid #21B573;
+}
+
+.header .navbar .navbar-nav .nav-item .btn-success:focus {
+  color: #21B573;
+  background-color: transparent;
+  border: 1px solid #21B573;
+}
+
+/* Banner Styles */
+.banner {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.inner-banner {
+  width: 100%;
+}
+
+.inner-banner h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2em;
+  color: #FD511A;
+  margin: 0px 0px 20px;
+}
+
+.inner-banner h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: #000;
+  margin: 0px 0px 20px;
+}
+
+.inner-banner h1 span {
+  color: #21B573;
+}
+
+.inner-banner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2em;
+  color: #000;
+  margin: 0px 0px 20px;
+}
+
+.inner-banner .btn-success {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  color: #fff;
+  padding: 10px 35px;
+  margin-top: 20px;
+  border-radius: 35px;
+  background-color: #21B573;
+  border: 1px solid #000;
+  transition: 1s;
+}
+
+.inner-banner .btn-success:hover {
+  color: #21B573;
+  background-color: transparent;
+  border: 1px solid #21B573;
+}
+
+.inner-banner .btn-success:focus {
+  color: #21B573;
+  background-color: transparent;
+  border: 1px solid #21B573;
+}
+
+/* Feature Section Styles */
+.feature {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.inner-feature {
+  width: 100%;
+  padding: 40px;
+  background-color: #F8FFFB;
+  text-align: center;
+  border-radius: 10px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.inner-feature:hover {
+  background-color: #fff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.inner-feature img {
+  width: 66px;
+  height: 86px;
+}
+
+.inner-feature h4 {
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #000;
+  margin: 20px 0px 0px;
+}
+
+.inner-feature p {
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #000;
+  margin: 0px 0px 0px;
+}
+
+
+/* Courses Section Styles */
+.courses {
+  width: 93%;
+  margin: 80px 30px 0px 80px;
+}
+
+.courses h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0px 0px 40px 0px;
+}
+
+.courses .card {
+  padding: 25px 20px;
+  border: 0px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.courses .card .card-body {
+  padding: 20px 0px 0px;
+}
+
+.courses .card .card-title {
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #000;
+  margin: 10px 0px;
+}
+
+.courses .card .card-text {
+  font-size: 20px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #000;
+  margin: 10px 0px;
+}
+
+.courses .card .btn-primary {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 10px 0px 20px;
+  border-radius: 35px;
+  background-color: #21B573;
+  transition: 1s;
+}
+
+.courses .card .btn-primary:hover {
+  color: #21B573;
+  background-color: transparent;
+  border: 1px solid #21B573;
+}
+
+.courses .card .btn-primary:focus {
+  color: #21B573;
+  background-color: transparent;
+  border: 1px solid #21B573;
+}
+
+.card p {
+  font-size: 13px;
+}
+
+.card .text-right {
+  text-align: right;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Testimonial Section Styles */
+.testimonial {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.testimonial h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0px 0px 40px 0px;
+}
+
+.testimonial .client-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin: 0px 0px 0px 20px;
+  border: 1px solid #21B573;
+}
+
+.testimonial p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: #000;
+  margin: 0px 0px 20px;
+}
+
+/* Footer styles */
+.footer {
+  background: #282531;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.footer .widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.footer .widget ul li {
+  margin-bottom: 10px;
+}
+
+.footer .widget ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s;
+  color: #fff;
+}
+
+.footer .widget ul li a.bold {
+  font-weight: bold;
+}
+
+.footer .widget ul li a:hover {
+  color: #21B573;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .footer .widget {
+    margin-bottom: 30px;
+  }
+}
